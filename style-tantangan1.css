@@ -11,7 +11,7 @@
 }
 
 .container-foto {
-  flex: 1;
+  flex: 2;
   min-height: 300px;
 }
 
@@ -22,14 +22,10 @@
 }
 
 .container-detail{
-  flex: 0.3;
+  flex: 1.8;
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-
-#title{
-  white-space: nowrap;
 }
 
 #price {
@@ -38,10 +34,10 @@
 }
 
 .container-button{
-  flex: 0.2;
   display: flex;
-  align-items: flex-end;
-  justify-content: center;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: space-between;
   gap: 50px;
 }
 
@@ -67,4 +63,11 @@
   border-radius: 20px;
   background-color: red;
   color: white;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.container-size button{
+  font-size: 15px;
+  padding: 10px;
 }
